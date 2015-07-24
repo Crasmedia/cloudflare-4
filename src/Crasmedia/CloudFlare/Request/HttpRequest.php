@@ -133,8 +133,9 @@ class HttpRequest implements RequestInterface
     public function __call($method, $arguments)
     {
         $resolved = $this->resolver->resolve($method, $arguments);
+        $body = array_get($resolved, 'parameters') ? json_encode($resolved['parameters']) : [];
         $method = $resolved['method'];
 
-        return $this->$method($resolved['route'], $resolved['parameters']);
+        return $this->$method($resolved['route'], $body);
     }
 }

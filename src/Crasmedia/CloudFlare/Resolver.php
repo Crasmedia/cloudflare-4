@@ -47,7 +47,7 @@ class Resolver
         ],
         'plansList'  => [
             'method'     => 'get',
-            'route'      => '/zones/:zone_id/plans',
+            'route'      => '/zones/:zone_id/available_plans',
             'parameters' => ['zone_id']
         ],
         'plansGet'  => [
