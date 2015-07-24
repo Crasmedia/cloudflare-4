@@ -1,17 +1,17 @@
 {
-    "name": "mcprohosting/cloudflare-4",
+    "name": "Crasmedia/cloudflare-4",
     "description": "PHP package for the next generation CloudFlare API",
     "license": "MIT",
     "keywords": ["cloudflare", "api", "wrapper"],
     "authors": [
         {
-            "name": "Connor Peet",
-            "email": "connor@peet.io"
+            "name": "Crasmedia",
+            "email": "admin@crasmedia.com"
         }
     ],
     "autoload": {
         "psr-4": {
-            "Mcprohosting\\CloudFlare\\": "src/Mcprohosting/CloudFlare/"
+            "Crasmedia\\CloudFlare\\": "src/Crasmedia/CloudFlare/"
         }
     },
     "require": {
