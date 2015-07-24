@@ -1,8 +1,8 @@
 <?php
 
-namespace Mcprohosting\CloudFlare\Request;
+namespace Crasmedia\CloudFlare\Request;
 
-use Mcprohosting\CloudFlare\Response\ResponseInterface;
+use Crasmedia\CloudFlare\Response\ResponseInterface;
 
 /**
  * @method ResponseInterface zoneCreate(mixed $name, bool $jump_start = null, array $organization = null)

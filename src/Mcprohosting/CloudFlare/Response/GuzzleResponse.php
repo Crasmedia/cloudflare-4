@@ -1,6 +1,6 @@
 <?php
 
-namespace Mcprohosting\CloudFlare\Response;
+namespace Crasmedia\CloudFlare\Response;
 
 use GuzzleHttp\Message\ResponseInterface as GuzzleResponseInterface;
 

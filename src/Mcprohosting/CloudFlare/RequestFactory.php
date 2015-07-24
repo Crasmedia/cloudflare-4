@@ -1,9 +1,9 @@
 <?php
 
-namespace Mcprohosting\CloudFlare;
+namespace Crasmedia\CloudFlare;
 
 use GuzzleHttp\Client;
-use Mcprohosting\CloudFlare\Request\HttpRequest;
+use Crasmedia\CloudFlare\Request\HttpRequest;
 
 class RequestFactory
 {

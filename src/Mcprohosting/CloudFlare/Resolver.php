@@ -1,6 +1,6 @@
 <?php
 
-namespace Mcprohosting\CloudFlare;
+namespace Crasmedia\CloudFlare;
 
 class Resolver
 {

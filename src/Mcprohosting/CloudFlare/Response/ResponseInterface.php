@@ -1,6 +1,6 @@
 <?php
 
-namespace Mcprohosting\CloudFlare\Response;
+namespace Crasmedia\CloudFlare\Response;
 
 interface ResponseInterface
 {

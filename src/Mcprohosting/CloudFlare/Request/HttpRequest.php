@@ -1,11 +1,11 @@
 <?php
 
-namespace Mcprohosting\CloudFlare\Request;
+namespace Crasmedia\CloudFlare\Request;
 
 use GuzzleHttp\ClientInterface;
-use Mcprohosting\CloudFlare\Resolver;
-use Mcprohosting\CloudFlare\Response\GuzzleResponse;
-use Mcprohosting\CloudFlare\Response\ResponseInterface;
+use Crasmedia\CloudFlare\Resolver;
+use Crasmedia\CloudFlare\Response\GuzzleResponse;
+use Crasmedia\CloudFlare\Response\ResponseInterface;
 
 /**
  * @method ResponseInterface zoneCreate(mixed $name, bool $jump_start = null, array $organization = null)
