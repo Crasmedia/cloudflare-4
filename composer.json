@@ -1,5 +1,5 @@
 {
-    "name": "Crasmedia/cloudflare-4",
+    "name": "crasmedia/cloudflare-4",
     "description": "PHP package for the next generation CloudFlare API",
     "license": "MIT",
     "keywords": ["cloudflare", "api", "wrapper"],
