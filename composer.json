@@ -3,6 +3,7 @@
     "description": "PHP package for the next generation CloudFlare API",
     "license": "MIT",
     "keywords": ["cloudflare", "api", "wrapper"],
+    "homepage": "https://crasmedia.com",
     "authors": [
         {
             "name": "Crasmedia",
