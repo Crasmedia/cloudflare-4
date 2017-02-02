@@ -2,7 +2,7 @@
 
 namespace Crasmedia\CloudFlare\Response;
 
-use GuzzleHttp\Message\ResponseInterface as GuzzleResponseInterface;
+use GuzzleHttp\Psr7\Response as GuzzleResponseInterface;
 
 class GuzzleResponse implements ResponseInterface
 {
@@ -15,7 +15,7 @@ class GuzzleResponse implements ResponseInterface
 
     function __construct(GuzzleResponseInterface $response)
     {
-        $this->data = $response->json();
+        $this->data = json_decode($response->getBody(), true);
     }
 
     public function __get($property)
